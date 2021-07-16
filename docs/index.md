@@ -1,37 +1,151 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Untitled Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link type="text/css" href="resources/css/reset.css" rel="Stylesheet" />
+    <link type="text/css" href="resources/css/default.css" rel="Stylesheet" />
+    <link rel="shortcut icon" href="resources/images/favicon_play.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet'>
 
-You can use the [editor on GitHub](https://github.com/tdzwxa/app_team/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+    <script type="text/javascript">
+        if (location.href.toString().indexOf('file://localhost/') == 0) {
+            location.href = location.href.toString().replace('file://localhost/', 'file:///');
+        }
+    </script>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!--<link type="text/css" rel="Stylesheet" href="plugins/sitemap/styles/sitemap.css" />
+    <link type="text/css" rel="Stylesheet" href="plugins/page_notes/styles/page_notes.css" />
+    <link type="text/css" rel="Stylesheet" href="plugins/debug/styles/debug.css" />
+    <link type="text/css" rel="Stylesheet" href="plugins/handoff/styles/handoff.css" />
+    <link type="text/css" rel="Stylesheet" href="plugins/handoff/styles/codemirror.css" />-->
+</head>
+<body scroll="no" class="hashover" style="overflow: hidden;">
+    <div id="topPanel">
+        <div id="interfaceControlFrame">
+            <div id="interfaceControlFrameLeft">
+                <div id="interfaceControlFrameMinimizeContainer">
+                    <a title="Collapse" id="interfaceControlFrameMinimizeButton">
+                        <div id="minimizeArrow" class="minimizeButtonHover minimizeIcon"></div>
+                        <div id="minimizeX" class="minimizeButton minimizeIcon"></div>
+                    </a>
+                </div>
+                <div id="interfaceControlFrameCloseContainer">
+                    <a title="Close" id="interfaceControlFrameCloseButton">CLOSE</a>
+                </div>
 
-### Markdown
+                <div id="sitemapControlFrameContainer" title="Project Pages">
+                    <div id="projectControlFrameHeaderContainer">
+                        <ul id="projectControlFrameHeader"></ul>
+                    </div>
+                    
+                    <div id="interfacePageNameContainer">
+                        <div id="interfacePageNameButton" class='pageNameHeader'>
+                            &nbsp;
+                        </div>
+                        <div id="interfacePageCount" class='pageCountHeader'>
+                        </div>
+                    </div>
+                </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+                <div id="interfaceAdaptiveViewsContainer" title="Adaptive Views">
+                    <div id="interfaceAdaptiveViewsIconButton">&nbsp;</div>
+                    <div id="interfaceAdaptiveViewsButton" class='adaptiveViewHeader'>
+                        &nbsp;
+                    </div>
+                    <div id="adaptiveViewsDropdown" class="caret"></div>
+                </div>
+            </div>
+            
+            <div id="interfaceControlFrameContainer">
+                <div id="handoffControlFrameHeaderContainer">
+                    <ul id="handoffControlFrameHeader"></ul>
+                </div>
+                <div id="interfaceControlFrameLogoContainer">
+                    <div id="previewNotice">
+                        Local Preview
+                    </div>
+                </div>
+            </div>
 
-# Header 1
-## Header 2
-### Header 3
+            <div id="interfaceControlFrameRight">
+                <div id="publishContainer">
+                    <a id="publishButton">Share Prototype</a>
+                </div>
+                
+                <div id="inspectControlFrameHeaderContainer">
+                    <ul id="inspectControlFrameHeader">
+                        <li id="overflowBtn">
+                            <a id="overflowMenuButton" title="View Options"></a>
+                        </li>
+                    </ul>
+                </div>
 
-- Bulleted
-- List
+                <div id="separatorContainer">
+                    <div class="separator"></div>
+                </div>
 
-1. Numbered
-2. List
+                <div id="overflowMadeWith"><a href="https://www.axure.com" id="axureLogo" target="_blank"></a></div>
 
-**Bold** and _Italic_ and `Code` text
+            </div>
 
-[Link](url) and ![Image](src)
-```
+        </div>
+    </div>
+    <div id="popupContainer">
+        <div id='interfaceAdaptiveViewsListContainer'>
+        </div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        <div id='interfaceScaleListContainer'>
+        </div>
 
-### Jekyll Themes
+        <div id='accountLoginContainer'>
+        </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tdzwxa/app_team/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        <div id='overflowMenuContainer'>
+        </div>
+    </div>
+    <div id="outerContainer">
+        <div id="clippingBounds">
+            <div id="clippingBoundsScrollContainer"></div>
+        </div>
 
-### Support or Contact
+        <div id="mHideSidebar"></div>
+        <div id="lsplitbar" class="splitbar"></div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        <div id="mainPanel">
+            <div id="mainPanelContainer" style="position: relative; width:100%; height: 100%;">
+                <div id="clipFrameScroll" style="position: relative; width:100%; height: 100%; background-color: #ffffff;">
+                    <iframe id="mainFrame" name="mainFrame" width="100%" height="100%" src="about:blank" frameborder="0" style="display: block;position:absolute;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="rsplitbar" class="splitbar"></div>
+
+    </div>
+
+    <div id="maximizePanelContainer" class="maximizePanelContainer">
+        <div id="maximizePanelOver">
+            <div id="maximizePanel" title="Expand" class="maximizePanelOver">
+                <div id="maximizeButton" class="maximizeButton maximizeIcon"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mobileControlFrameContainer"></div>
+
+<!-- 9.0.0.3717 -->
+<script src="resources/scripts/jquery-3.2.1.min.js"></script>
+<script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+<script src="resources/scripts/axutils.js"></script>
+<script src="resources/scripts/messagecenter.js"></script>
+<script src="resources/scripts/player/axplayer.js"></script>
+<script src="resources/scripts/player/init.js"></script>
+
+
+</body>
+</html>
